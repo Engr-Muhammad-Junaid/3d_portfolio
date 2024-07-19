@@ -1,0 +1,11 @@
+Model Information:
+* title:	Artificial Intelligence And Exploitation
+* source:	https://sketchfab.com/3d-models/artificial-intelligence-and-exploitation-f5fddf989e8a46ab9d85e3b011f79d5f
+* author:	ArND (https://sketchfab.com/arkadiynd)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Artificial Intelligence And Exploitation" (https://sketchfab.com/3d-models/artificial-intelligence-and-exploitation-f5fddf989e8a46ab9d85e3b011f79d5f) by ArND (https://sketchfab.com/arkadiynd) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

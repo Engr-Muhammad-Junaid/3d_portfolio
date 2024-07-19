@@ -8,6 +8,10 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 
+import PublicationsComponent from "./publication"; // Correct import
+import AchievementsComponent from "./achievement";
+import CertificatesComponent from "./certificate";
+
 export {
   Hero,
   Navbar,
@@ -20,5 +24,10 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  PublicationsComponent,
+  AchievementsComponent,
+  CertificatesComponent,
+
+
 }

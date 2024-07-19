@@ -38,23 +38,22 @@ const About = () => {
   return (
     <>
     <motion.div>
-      <p className={styles.sectiobSubText}>Introducation</p>
-      <h2 className={styles.sectionHeadText}>Overview.</h2>
+  
+    <h2 className={`${styles.sectionHeadText} ml-40`}>Overview.</h2> {/* Added margin-left */}
 
     </motion.div>
     <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] ml-40'
       >
-
-I'm a skilled Machine Learning and AI Engineer with a background in Software Engineering. 
-Since 2020, I've worked on diverse projects, including recommendation systems and advanced NLP tasks. 
-My expertise in Generative AI allows me to leverage state-of-the-art algorithms to create innovative solutions. 
-I have experience in mobile app development, Java Servlet and JSP-based projects, location-based games, and blockchain integration. Proficient in Python, 
-I specialize in automation, data scraping, and web automation using Selenium and Beautiful Soup.
-Let's collaborate to shape the future of technology and bring your ideas to life!
+      I'm a skilled Machine Learning and AI Engineer with a background in Software Engineering. 
+      Since 2020, I've worked on diverse projects, including recommendation systems and advanced NLP tasks. 
+      My expertise in Generative AI allows me to leverage state-of-the-art algorithms to create innovative solutions. 
+      I have experience in mobile app development, Java Servlet and JSP-based projects, location-based games, and blockchain integration. Proficient in Python, 
+      I specialize in automation, data scraping, and web automation using Selenium and Beautiful Soup.
+      Let's collaborate to shape the future of technology and bring your ideas to life!
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex w-full overflow-x-scroll pb-8 gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
