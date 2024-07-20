@@ -45,7 +45,7 @@ const Navbar = () => {
           <img src={ALogo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Ali Haider &nbsp;
-            <span className='sm:block hidden'> | Artificial Intelligence Engineer</span>
+            <span className='sm:block hidden font-normal'> | Artificial Intelligence Engineer</span>
           </p>
         </Link>
 
