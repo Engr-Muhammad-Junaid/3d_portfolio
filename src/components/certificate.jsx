@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import "../constants/publish.css";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -16,22 +16,26 @@ const CertificateCard = ({ index, title, link }) => (
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="text-blue-500 underline mt-4 inline-block"
+      className="neon-button mt-4 inline-block"
     >
-      View Certificate
+          <span>  View Certificate</span>
+    
     </a>
   </motion.div>
 );
 
+
 const CertificatesComponent = () => {
   return (
-    <div className='mt-12 bg-black-100 rounded-[20px]'>
-      <div className='bg-tertiary rounded-2xl padding min-h-[300px]'>
-        <motion.div variants={textVariant()}>
-          <h2 className={styles.sectionHeadText}>Certificates</h2>
-        </motion.div>
-      </div>
-      <div className='-mt-20 pb-14 paddingX flex w-full overflow-x-scroll gap-7'>
+    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
+    <div
+      className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+    >
+      <motion.div variants={textVariant()}>
+        <h2 className={styles.sectionHeadText}>Certificates</h2>
+      </motion.div>
+    </div>
+    <div className={`-mt-20 pb-14 ${styles.paddingX} flex w-full overflow-x-scroll gap-7`}>
         {certificates.map((cert, index) => (
           <CertificateCard key={index} index={index} {...cert} />
         ))}
@@ -41,3 +45,7 @@ const CertificatesComponent = () => {
 };
 
 export default SectionWrapper(CertificatesComponent, "");
+
+
+
+

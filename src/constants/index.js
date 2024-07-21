@@ -7,11 +7,24 @@ import {
     git,
     figma,
     docker,
+    reactjs,
    
   } from "../assets";
-  
+  import tweet from '../assets/tech/tweet.jpg';
+  import medal from '../assets/tech/medal.jpg';
+
+  import spam from '../assets/tech/spam.jpg';
+  import comer from '../assets/tech/comer.png';
+  import semi from '../assets/tech/semi.jpg';
+  import dash from '../assets/tech/dash.png';
+  import sent from '../assets/tech/sent.jpg';
+  import db from '../assets/tech/db.jpg';
+  import ap from '../assets/tech/app.jpg';
+  import vote from '../assets/tech/hero-img.png';
+  import churn from '../assets/tech/churn.jpg';
   import project2 from '../assets/tech/project2.jpg';
-  
+  import recomend from '../assets/tech/recomand.jpg';
+  import food from '../assets/tech/food.jpg';
   import pythonIcon from '../assets/tech/python.png'; // Import the new icon
   import tensorflowicon from '../assets/tech/tensorflow.png';
   import Mlicon from '../assets/tech/ML.png';
@@ -26,7 +39,8 @@ import {
   import java from "../assets/tech/java_based.png";
   import chainlit from "../assets/tech/chainlit.png";
   import deeplearning from '../assets/tech/deep-learning.png';
-
+  import maktek from '../assets/tech/maktek.jpg';
+  import work from '../assets/tech/work.jpg';
   import cai from '../assets/tech/CAI.png';
   import server from '../assets/tech/server.png';
   import tdata from '../assets/tech/tdata.png';
@@ -36,10 +50,9 @@ import {
   import rag from '../assets/tech/rag.png';
   import aq from '../assets/tech/relationship.png';
   import ds from '../assets/tech/ds.png';
-
+  import music from '../assets/tech/music.jpg';
   import cv from '../assets/tech/cv.png';
- 
-
+  import cli from '../assets/tech/cli.jpg';
   import ChatBot from '../assets/tech/bot.png';
   import hypothesis from '../assets/tech/hypothesis.png';
   import neuraletwork from '../assets/tech/neural-network.png';
@@ -47,12 +60,26 @@ import {
   import streamlit from '../assets/tech/streamlit.jpg';
   import saas from '../assets/tech/saas.jpg';
   import silver from '../assets/silver.jpg';
-  import compus from '../assets/compus.jpg';
+  import compus from '../assets/compus.png';
+  import keras from '../assets/KERAS.png';
+  import top from '../assets/tech/top.jpg';
+  import report from '../assets/report.jpg';
+  import chat from '../assets/tech/chat.jpg';
+  import titanic from '../assets/tech/titanic.jpg';
+  import cnn from '../assets/tech/cnn.jpg';
+  import lib from '../assets/tech/lib.png';
+  import ragchat from '../assets/tech/ragchat.jpg';
+  import health from '../assets/tech/health.jpg';
+  import power from  '../assets/power.png';
+  import stream from '../assets/streamlit.jpg';
+  import react from '../assets/reactjs.png';
 
+  import fast from '../assets/fastapi.png';
 
+  import django from '../assets/django.png';
+  
+  import emotion from '../assets/tech/emotion.jpg';
 
-
-  const manage='../assets/tech/hi.jpg';
   export const navLinks = [
     {
       id: "about",
@@ -211,6 +238,45 @@ import {
       name: "docker",
       icon: docker,
     },
+
+
+    {
+      name: "KERAS",
+      icon: keras,
+    },
+
+    {
+      name: "django",
+      icon: django,
+    },
+
+    
+    {
+      name: "fastapi",
+      icon: fast,
+    },
+
+    {
+      name: "reactjs",
+      icon: reactjs,
+    },
+
+    {
+      name: "Power Bi",
+      icon: power,
+    },
+
+    {
+      name: "streamlit",
+      icon: stream,
+    },
+
+
+
+
+
+
+
   ];
   
   const experiences = [
@@ -434,7 +500,7 @@ import {
                 color: "blue-text-gradient",
             },
             {
-                name: "dataset of TradingView indicator",
+                name: "TradingView",
                 color: "green-text-gradient",
             },
             {
@@ -508,7 +574,7 @@ import {
             },
         ],
         image: project2,
-        source_code_link: "https://drive.google.com/file/d/1Zxrqpa1o3lqqPKJwJC3xR3TvlVmn0B09/view",
+        source_link: "https://drive.google.com/file/d/1Zxrqpa1o3lqqPKJwJC3xR3TvlVmn0B09/view",
     },
     {
         name: "AI Agent Creation for Healthcare Planning and Coordination",
@@ -528,8 +594,8 @@ import {
                 color: "pink-text-gradient",
             },
         ],
-        image: '',
-        source_code_link: "",
+        image: health,
+        source_link: "https://makewellassitantchainlit-e42z6xmqwa-uc.a.run.app/" ,
     },
     {
         name: "Conversations Processing and Classification using Conversational Intelligence",
@@ -550,7 +616,7 @@ import {
             },
         ],
         image: streamlit,
-        source_code_link: "https://la-dashboard.streamlit.app/",
+        source_link: "https://la-dashboard.streamlit.app/",
     },
     {
         name: "A conversational AI SAAS for Custom Chatbots Creation",
@@ -593,9 +659,631 @@ import {
                 color: "pink-text-gradient",
             },
         ],
-        image:manage,
-        source_code_link: "https://www.linkedin.com/in/ali-haider-53820826b/details/projects/522708782/multiple-media-viewer/?profileId=ACoAAEIPgPwBYC3hUY8nSoYjMXJOgnF04nMMKHY&treasuryMediaId=1635541108728&type=IMAGE",
+        image:report,
+        source_link: "https://www.linkedin.com/in/ali-haider-53820826b/details/projects/522708782/multiple-media-viewer/?profileId=ACoAAEIPgPwBYC3hUY8nSoYjMXJOgnF04nMMKHY&treasuryMediaId=1635541108728&type=IMAGE",
     },
+
+  
+  {
+      name: "ABSA Based Restaurant Recommendation System",
+      description:
+          "Introduced a revolutionary project using aspect-based sentiment analysis and custom scoring to enhance restaurant recommendations, overcoming limitations of traditional rating systems for personalized and meaningful suggestions.",
+
+      tags: [
+          {
+              name: "Selenium ",
+              color: "blue-text-gradient",
+          },
+          {
+              name: "Django",
+              color: "green-text-gradient",
+          },
+          {
+              name: "SQL ",
+              color: "pink-text-gradient",
+          },
+      ],
+      image: recomend,
+      source_link: "https://drive.google.com/file/d/1PJVLTk14mNv5apsR_amZqhSadxDeh-NI/view?usp=sharing",
+  },
+
+
+
+
+
+  
+  {
+    name: "A hybrid approach for food name recognition in restaurant reviews",
+    description:
+        'Led the development of a novel NLP model for the "Hybrid Food Entity Recognition in Restaurant Reviews" project, using spaCy and heuristic filtering to enhance food entity recognition accuracy.',
+
+    tags: [
+        {
+            name: "SpaCy",
+            color: "blue-text-gradient",
+        },
+        {
+            name: "Open Source",
+            color: "green-text-gradient",
+        },
+        {
+            name: "Deep Learning",
+            color: "pink-text-gradient",
+        },
+    ],
+    image: food,
+    source_link: "https://ieeexplore.ieee.org/document/10323795",
+},
+
+
+
+
+
+  
+{
+  name: "Emotions-classification",
+  description:
+      'Utilized pre-trained BERT embeddings, fine-tuned on a custom dataset, for accurate emotion classification in sentences, enhancing contextual understanding for a deployable model applicable across various domains.',
+
+  tags: [
+      {
+          name: "BERT embedding",
+          color: "blue-text-gradient",
+      },
+      {
+          name: "Machine Learning",
+          color: "green-text-gradient",
+      },
+    
+  ],
+  image: emotion,
+  source_link: "https://www.kaggle.com/code/ali1510/emotion-detection/notebook",
+},
+
+
+
+  
+{
+  name: "CLV Prediction and Detailed Interactive Analytics",
+
+  description:
+      "Developed a Streamlit-based interactive dashboard for predicting Customer Lifetime Value (CLV) across four datasets, featuring detailed visualizations, RFM analysis, and dynamic data processing, enabling stakeholders to make data-driven decisions.",
+  tags: [
+      {
+          name: "Machine Learning",
+          color: "blue-text-gradient",
+      },
+      {
+          name: "Data Analysis",
+          color: "green-text-gradient",
+      },
+       {
+            name: "Deep Learning",
+            color: "pink-text-gradient",
+        },
+    
+  ],
+  image: cli,
+  source_link: "https://www.kaggle.com/code/ali1510/emotion-detection/notebook",
+
+},
+
+
+
+
+  
+{
+  name: "English Pronunciation Harmonical Analysis",
+
+  description:
+      "Introduced a Pronunciation Analysis Platform using advanced technologies like librosa and fastdtw for real-time feedback, gamified with performance charts and badges, enhancing language proficiency through a robust technology stack.",
+  tags: [
+      {
+          name: "Deep Learning",
+          color: "blue-text-gradient",
+      },
+      {
+          name: "Scipy",
+          color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+    },
+    
+  ],
+  image: music,
+  source_link: "https://drive.google.com/file/d/1GP-Qj1oCmvse_5AqLOriZgCCPPnMbFcZ/view",
+
+},
+
+
+
+ 
+{
+  name: "Pine Script 5 Code Generative Model",
+
+  description:
+      "Collected Pine Script v5 data using web crawlers, fine-tuned a code generative model with LLMs, and developed an adaptive Real-time Hybrid Learning Framework (RHLF) for superior and updated script generation.",
+  tags: [
+      {
+          name: "GPT",
+          color: "blue-text-gradient",
+      },
+      {
+          name: "Crawlers",
+          color: "green-text-gradient",
+      },
+      {
+        name: "llama2",
+        color: "pink-text-gradient",
+    },
+    
+  ],
+  image: maktek,
+  source_link: "https://huggingface.co/datasets/AliHaider0343/PineScript-Prompts",
+
+},
+
+
+
+
+{
+  name: "Data Quality Assessment",
+
+  description:
+      "Gained hands-on experience in data preprocessing, resolving missing values, outliers, and inconsistencies to ensure a clean dataset, optimizing decision-making and enhancing analysis quality and reliability.",
+  tags: [
+      {
+          name: "Communication",
+          color: "blue-text-gradient",
+      },
+      {
+          name: "Data Analysis",
+          color: "green-text-gradient",
+      },
+      {
+        name: "Data Science",
+        color: "pink-text-gradient",
+    },
+    
+  ],
+  image: work,
+  source_code_link: "https://github.com/AliHaider0343/KPMG-Virtual-Internship-Porgram-Tasks",
+
+},
+
+
+
+{
+  name: "Data Modeling and Interactive Dashboard Development",
+
+  description:
+      "Initiated data extraction, preprocessing, and cleaning. Developed and fine-tuned predictive models, conducted hypothesis testing, and created interactive visualization dashboards. Delivered actionable insights and reports, enhancing data-driven decision-making and business strategies.",
+  tags: [
+      {
+          name: "Matplotlib",
+          color: "blue-text-gradient",
+      },
+      {
+          name: "Power BI",
+          color: "green-text-gradient",
+      },
+      {
+        name: "Excel",
+        color: "pink-text-gradient",
+    },
+    
+  ],
+  image: dash,
+  source_code_link: "https://github.com/AliHaider0343/KPMG-Virtual-Internship-Porgram-Tasks",
+
+},
+
+
+
+
+
+
+
+{
+
+
+  
+  name: "Customer Churn Prediction using Logistic Regression",
+
+  description:
+      "Employed logistic regression for Customer Churn Prediction, analyzing historical data and customer demographics. Developed an interpretable model to identify likely churners, aiding businesses in proactive customer retention strategies.",
+  tags: [
+      {
+          name: "Communication",
+          color: "blue-text-gradient",
+      },
+      {
+          name: "Machine Learning",
+          color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+    },
+    
+  ],
+  image: churn,
+  source_code_link: "https://github.com/AliHaider0343/CodeClauseInternship-Churn-Prediction-in-Telecom-Industry-using-Logistic-Regression",
+
+},
+{
+
+
+
+
+name: "Diabetes Predictive Model",
+
+description:
+    "The Diabetes Predictive Model uses machine learning to forecast diabetes onset, analyzing key health indicators and risk factors for accurate predictions, enabling early intervention and personalized preventive measures.",
+tags: [
+    {
+        name: "Machine Learning",
+        color: "blue-text-gradient",
+    },
+   
+    {
+      name: "Python",
+      color: "pink-text-gradient",
+  },
+  
+],
+image: db,
+source_code_link: "https://github.com/AliHaider0343/Diabetes-Predictive-Model",
+
+},
+
+
+
+{
+
+
+
+  name: "Vote with Wallet",
+  
+  description:
+      "The website, built with HTML, CSS, and cached memory technology, offers an interactive platform for users to explore and engage with various ethical causes created by the community, promoting a fairer world.",
+  tags: [
+      {
+          name: "HTML/CSS",
+          color: "blue-text-gradient",
+      },
+     
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+    },
+    
+  ],
+  image: vote,
+  source_code_link: "https://github.com/AliHaider0343/Vote-with-Your-Wallet",
+  
+  },
+
+  {
+
+
+
+    name: "Social Media Web Application",
+    
+    description:
+        "Developed a Java Servlet-based social media web application to redefine social engagement. Users can seamlessly make friends, explore, and connect with like-minded individuals through robust algorithms and user-friendly interfaces, ensuring an intuitive and enjoyable experience.",
+    tags: [
+        {
+            name: "Servlets",
+            color: "blue-text-gradient",
+        },
+       
+        {
+          name: "Java (for Android)",
+          color: "pink-text-gradient",
+      },
+      
+    ],
+    image: ap,
+    source_code_link: " https://github.com/AliHaider0343/Java-Servlet-based-Social-Media-Application-",
+    
+    },
+
+
+    {
+
+
+
+      name: "Sentiment Analysis",
+      
+      description:
+        "The ultimate Deep Learning based tools and resources you need to analyze and understand sentiment in text. harnessing the power of NLP to gain valuable insights into the emotional landscape of language.",
+      tags: [
+          {
+              name: "Data Analysis",
+              color: "blue-text-gradient",
+          },
+         
+          {
+            name: "Machine Learning",
+            color: "pink-text-gradient",
+        },
+        
+      ],
+      image: sent,
+      source_code_link: "https://github.com/AliHaider0343/Sentiment-Analysis",
+      
+      },
+
+
+
+
+      {
+
+
+
+        name: "Spam base Predictive Model",
+        
+        description:
+          "Developed a fine-tuned BERT model for spam classification, enhancing accuracy. Curated a diverse dataset and created a user-friendly interface for seamless integration, advancing NLP and demonstrating BERT's practical applications.",
+        tags: [
+            {
+                name: "SQL",
+                color: "blue-text-gradient",
+            },
+           
+            {
+              name: "Machine Learning",
+              color: "pink-text-gradient",
+          },
+          
+        ],
+        image: spam,
+        source_link: "",
+        
+        },
+
+
+        
+
+      {
+
+
+
+        name: "Seminar Management System",
+        
+        description:
+          "Developed the Seminar Management System, a dynamic platform for organizing seminars, conferences, and workshops. Built with PHP, HTML, CSS, and JavaScript, it enhances event management efficiency and user-friendliness.",
+        tags: [
+            {
+                name: "HTML/CSS",
+                color: "blue-text-gradient",
+            },
+           
+            {
+              name: "PHP",
+              color: "pink-text-gradient",
+          },
+          
+        ],
+        image: semi,
+        source_code_link: "https://github.com/AliHaider0343/Seminar-Management-System",
+        
+        },
+
+
+
+
+   
+
+        {
+
+
+
+          name: "Commercial Medical Laboratories Automated System",
+          
+          description:
+            "Complete end-to-end Solution for Laboratories that has been Deployed on the Local Laboratories over a year.",
+          tags: [
+              {
+                  name: "Jasper Reports",
+                  color: "blue-text-gradient",
+              },
+             
+              {
+                name: "SQL & Java",
+                color: "pink-text-gradient",
+            },
+            
+          ],
+          image: comer,
+          source_code_link: "https://github.com/AliHaider0343/Clinical-Laboratories-Reporting-and-Management-System",
+          
+          },
+        
+
+
+
+
+          {
+
+
+
+            name: "NLP with Disasters Tweets Classification",
+            
+            description:
+              "The NLP project classifies disaster-related tweets using advanced algorithms. Trained on diverse datasets, it accurately identifies relevant information, aiding disaster response teams and the public with rapid, targeted tweet classification during crises.",
+            tags: [
+                {
+                    name: "MySQL",
+                    color: "blue-text-gradient",
+                },
+               
+                {
+                  name: "Data Analysis",
+                  color: "pink-text-gradient",
+              },
+              
+            ],
+            image: tweet,
+            source_code_link: "https://www.kaggle.com/code/ali1510/disasters-tweets-classification-using-bert",
+            
+            },
+          
+
+            {
+
+
+
+              name: "Chat with your Website",
+              
+              description:
+                "The NLP project classifies disaster-related tweets using advanced algorithms. Trained on diverse datasets, it accurately identifies relevant information, aiding disaster response teams and the public with rapid, targeted tweet classification during crises.",
+              tags: [
+                  {
+                      name: "Natural Language Processing (NLP)",
+                      color: "blue-text-gradient",
+                  },
+                 
+                  {
+                    name: "LLM",
+                    color: "pink-text-gradient",
+                },
+                
+              ],
+              image: chat,
+              source_code_link: "https://web-chat.streamlit.app/",
+              
+              },
+  
+  
+  
+
+              {
+
+
+
+                name: "Titanic Dataset Classification using BERT",
+                
+                description:
+                  "The Titanic Dataset Classification project uses BERT to predict survival outcomes, extending its application beyond traditional NLP tasks to handle structured data for binary classification.",
+                tags: [
+                    {
+                        name: "Machine Learning",
+                        color: "blue-text-gradient",
+                    },
+                   
+                    {
+                      name: "Python",
+                      color: "pink-text-gradient",
+                  },
+                  
+                ],
+                image: titanic,
+                source_code_link: "https://github.com/AliHaider0343/Tatanic-dataset-classification-using-Neural-Networks",
+                
+                },
+    
+
+
+                {
+
+
+
+                  name: "Cats and Dogs Image Classifiers using CNN",
+                  
+                  description:
+                    "The Titanic Dataset Classification project uses BERT to predict survival outcomes, extending its application beyond traditional NLP tasks to handle structured data for binary classification.",
+                  tags: [
+                      {
+                          name: "Machine Learning",
+                          color: "blue-text-gradient",
+                      },
+                     
+                      {
+                        name: "Django",
+                        color: "pink-text-gradient",
+                    },
+                    
+                    {
+                      name: "SQL",
+                      color: "green-text-gradient",
+                  },
+
+
+
+
+
+
+
+                  ],
+                  image: cnn,
+                  source_code_link: "https://github.com/AliHaider0343/Fcc-Cat-and-Dog-Image-Classifier",
+                  
+                  },
+
+                  
+                {
+
+
+
+                  name: "Libraries Records Management System",
+                  
+                  description:
+                    "Developed a comprehensive Library Management System in Java with a Swing-based user interface, offering librarians and staff an efficient, user-friendly platform to manage library resources and transactions.",
+                  tags: [
+                      {
+                          name: "SQLJava",
+                          color: "blue-text-gradient",
+                      },
+                     
+                      {
+                        name: "Java",
+                        color: "pink-text-gradient",
+                    },
+                    
+
+                  ],
+                  image: lib,
+                  source_code_link: "https://github.com/AliHaider0343/Library-Management-System",
+                  
+                  },
+      
+  
+
+          {
+            
+                  name: "Source Pointing and Dynamic Knowledge Base Chatbot (RAG)",
+                  
+                  description:
+                    "Developed a web application with a Content Curators plugin, enabling users to create, train, and personalize chatbots for seamless integration and accurate information sourcing, resulting in a superior user experience.",
+          
+                    tags: [
+                      {
+                          name: "Python for Data Science",
+                          color: "blue-text-gradient",
+                      },
+                     
+                      {
+                        name: "Prompt Engineering",
+                        color: "pink-text-gradient",
+                    },
+
+                    {
+                      name: "Web Development",
+                      color: "green-text-gradient",
+                  },
+                    
+
+                  ],
+                  image: ragchat,
+                  source_code_link: "https://github.com/AliHaider0343/Library-Management-System",
+                  
+                  },
+      
+  
 
 
 
@@ -615,6 +1303,38 @@ const Publications =
    description: "Food Computing uses NLP to extract insights from text, focusing on Named Entity Recognition (NER) for identifying food names. We propose a neuro-heuristic approach with a template-based dataset preparation, achieving an F1 accuracy of 0.97.",
    link: "https://ieeexplore.ieee.org/document/10323795",
  },
+
+ {
+  title: "NLP-Assisted Configurable Text Annotation Tool",
+  description: "The paper introduces ConAno, a text annotation tool specifically designed for sentiment analysis and aspect-based sentiment analysis tasks. Here's a concise description that adheres to the safety guidelines:ConAno: Streamlining Sentiment Analysis with a Configurable Annotation ToolThis paper unveils ConAno, an innovative tool that simplifies the often-complex process of annotating text data for sentiment analysis. ConAno stands out with its:.",
+  link: "https://archive.org/details/cona-no-a-configurable-annotation-tool",
+},
+
+{
+  title: "NLP-Assisted Configurable Text Annotation Tool (Conference Paper)",
+  description: "20th International Conference on Frontiers of Information Technology (FIT 2023)(Under Review by FIT 2023 Evaluation Panel).",
+  link: "",
+},
+{
+  title: "ABSA Based Recommendation System",
+  description: "Journal paper awaiting submission for Journal commencement).",
+  link: "",
+},
+
+{
+  title: "Qualitative/Quantitative Data Enhancement and Balancing",
+  description: "(Conference paper awaiting submission for conference commencement).",
+  link: "",
+},
+
+
+{
+  title: "A Scoring Mechanism for Specialized Recommendation through Aspect-Based Sentiment Analysis",
+  description: "(Conference Paper under development).",
+  link: "",
+},
+
+
 ];
 
 const achievement=[
@@ -631,7 +1351,15 @@ const achievement=[
   {
     title: "Campus Silver Medal",
     image: compus,
+
   },
+
+
+  {
+    title: "Top Machine Learning Voice",
+    image: top,
+  },
+
 
 
 
