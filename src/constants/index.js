@@ -1,17 +1,16 @@
 import {
-    mobile,
+  
     backend,
 
-    javascript,
-    mongodb,
+   
     git,
-    figma,
+  
     docker,
-    reactjs,
+   
    
   } from "../assets";
   import tweet from '../assets/tech/tweet.jpg';
-  import medal from '../assets/tech/medal.jpg';
+ 
 
   import spam from '../assets/tech/spam.jpg';
   import comer from '../assets/tech/comer.png';
@@ -43,12 +42,12 @@ import {
   import work from '../assets/tech/work.jpg';
   import cai from '../assets/tech/CAI.png';
   import server from '../assets/tech/server.png';
-  import tdata from '../assets/tech/tdata.png';
+ 
   import dv from '../assets/tech/dv.png';
   import cs from '../assets/tech/conversion.png';
   import research from '../assets/tech/research.png';
   import rag from '../assets/tech/rag.png';
-  import aq from '../assets/tech/relationship.png';
+ 
   import ds from '../assets/tech/ds.png';
   import music from '../assets/tech/music.jpg';
   import cv from '../assets/tech/cv.png';
@@ -72,11 +71,11 @@ import {
   import health from '../assets/tech/health.jpg';
   import power from  '../assets/power.png';
   import stream from '../assets/streamlit.jpg';
-  import react from '../assets/reactjs.png';
+  
 
   import fast from '../assets/fastapi.png';
 
-  import django from '../assets/django.png';
+  
   
   import emotion from '../assets/tech/emotion.jpg';
 
@@ -100,16 +99,13 @@ import {
       title: "Machine Learning",
       icon: Mlicon,
     },
-    {
-      title: "Web Developer",
-      icon: mobile,
-    },
+  
     {
       title: "Generative AI",
       icon: gai,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Developer(Fastapi & Flask)",
       icon: backend,
     },
     {
@@ -130,10 +126,7 @@ import {
       title: "Data intelligent applications",
       icon:  server,
     },
-    {
-      title: "Transaction data analysis",
-      icon:  tdata,
-    },
+   
     {
       title: "Data visualization",
       icon:  dv,
@@ -152,10 +145,7 @@ import {
       title: "RAG (Retrieval-Augmented Generation)",
       icon:  rag,
     },
-    {
-      title: "Data acquisition",
-      icon:  aq,
-    },
+   
     {
       title: "Data science",
       icon:  ds,
@@ -179,10 +169,7 @@ import {
       icon: neuraletwork,
     },
     
-    {
-      title: "Character AI",
-      icon:  charai,
-    },
+   
     
 
  
@@ -197,10 +184,7 @@ import {
       name: "Tensoflow",
       icon: tensorflowicon,
     },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
+    
     {
       name: "Pytorch",
       icon: pytorch,
@@ -221,19 +205,13 @@ import {
       name: "Generative_AI",
       icon: GI,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+   
  
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
+   
     {
       name: "docker",
       icon: docker,
@@ -245,10 +223,6 @@ import {
       icon: keras,
     },
 
-    {
-      name: "django",
-      icon: django,
-    },
 
     
     {
@@ -256,10 +230,7 @@ import {
       icon: fast,
     },
 
-    {
-      name: "reactjs",
-      icon: reactjs,
-    },
+   
 
     {
       name: "Power Bi",
@@ -281,213 +252,50 @@ import {
   
   const experiences = [
     {
-      title: "Lead AI Engineer",
+      title: "Machine Learning Engineer",
       company_name: "Maktek – Remote",
   
-      date: "08/2023-Present",
+      date: "08/2024-11/2024",
       points: [
-        "Responsible for leading the development of conversational, generative, discriminative and Agentic AI solutions.",
-        "Expertise includes engaging with clients to secure projects and ensure their satisfaction.",
-        "Manages teams in the design, architecture, and implementation of AI projects.",
-        "Currently serving as a partner in product development with Maktek.",
+        "Worked as a Machine Learning Engineer, focusing on developing intelligent chatbots and conversational AI solutions.",
+        "Contributed to the development of Flux LoRA and conducted research on generative AI algorithms to enhance image synthesis and content creation.",
+        "Developed backend applications using FastAPI to support LLM (Large Language Model) apps.",
+
       ],
     },
 
     {
-      title: "Transactional Data Intelligent Engineer",
-      company_name: "Bizlytix-Contract",
-      date: "04/2024-Present",
+      title: "Machine Learning Engineer",
+      company_name: "Hsieh - Remote",
+      date: "04/2024-06/2024",
       points: [
-      "As a Transactional Data Intelligent Engineer, I specialize in analyzing and visualizing transactional data to uncover actionable insights. My key responsibilities include.",
-      "Data Exploration and Visualization: Utilizing advanced visualization tools and techniques to explore and present transactional data in a meaningful way.",
-      " PandasAI Integration: Leveraging the power of PandasAI to enhance data processing and analysis capabilities.",
-      " Agentic Solutions: Implementing agent-based approaches to optimize data handling and intelligence extraction processes.",
-      " Data Wrangling: Employing robust data wrangling techniques to clean, structure, and prepare transactional data for analysis.",
-        "Insight Generation: Identifying patterns, trends, and anomalies within transactional data to drive business decisions and strategies.",
-        "Collaboration: Working closely with cross-functional teams to ensure data accuracy and consistency, and to develop data-driven solutions that meet business needs.",
-        "Continuous Improvement: Staying updated with the latest industry trends and technologies to continuously improve data analysis methodologies and tools."
+     "During my time at Hsieh, I contributed to several key projects focused on enhancing user interaction and automating workflows.",
+     "Built conversational AI interfaces for chatbot applications.",
+     "Focused on enhancing information retrieval and response accuracy for RAG applications.",
+     "Developed data-driven analytical tools to automate workflows.",
+     "Worked on generative AI solutions."
         
       ],
     },
     
     {
-      title: "Lead LLM and ML Engineer",
-      company_name: "AIDevStudio",
-      date: "04/2024-Present",
+      title: "Machine Learning Engineer Intern",
+      company_name: "CARE Pvt Ltd | Islamabad",
+      date: "10/2023-01/2024",
       points: [
-        "Lead LLM and ML Engineer at AI Dev Studio Leading AI and NLP projects, developing healthcare conversational solutions, and building advanced Retrieval-Augmented Generation systems for accurate and relevant responses, automatic chatbot conversational solutions and summarizer."
-        
-      ],
+        "CARE PVT Ltd is a leading ICT organization in Pakistan, specializing in AI and a wide spectrum of ICT solutions, including communication and networking systems, enterprise software, IoT, embedded systems, and power and microelectronics systems.",
+        "Automated KYC System: Revolutionized user verification with an Automated Know Your Customer (KYC) system leveraging advanced OCR and Facial Recognition technologies.",
+        "Technologies Used:Paddle, OCR, SIFT Algorithm, OpenCV"
+      ]
     },
 
-    {
-      title: "Machine Learning Eng/Researcher",
-      company_name: "COMSATS University Islamabad Abbottabad Campus",
-
-      date: "10/2020-Present",
-      points: [
-        "In my research role, I specialized in harnessing the power of Large Language Models for advanced Natural Language Processing.",
-        "Played a key role in extracting implicit and explicit aspects, conducting Sequence Classification, and Token Classification.",
-        "My contributions spanned Data Collection, creating Data Annotation rules, curating data, and implementing a custom scoring mechanism.",
-        "Notably, we pioneered a bias-free approach for Food Named Entity Recognition and developed a Food Ontology in Restaurant Domain, surpassing conventional systems in every aspect.",
-        "In addition to development, our secondary focus includes crafting Technical Write-ups for the developed product modules.",
-        "We are committed to ongoing research and system updates, adapting to the Retrieval Augmented Generation for better and more fluent responses.",
-        "Our next step involves implementing the Lang Chain framework to elevate recommendations using Large Language Models."
-
-      ],
-    },
-    {
-      title: "Cofounder & CTO",
-      company_name: "Hsieh – Onsite",
-      date: "10/2023-Present",
-      points: [
-        "Startup located in Plan-9 Arfa Kareem Tower. My responsibilities to lead research and development efforts furthermore refining Large Language Models to improve Sales and Customer Support.",
-        "I also focus on Generative AI for Data Augmentation and Annotation, Target Audience identification through Customer Segmentation based on Conversation Analysis, AI-based Customer and Agents Profiling, Voice Calls Analysis, Topic Modeling, Summarization, Speakers Digitization, Content Moderation, and ABSA etc.Lead AI."
-      ],
-    },
-    {
-      title: "Deep Learning Engineer",
-      company_name: "DevEntia Tech – Hybrid",
-      date: "09/2023-Present",
-      points: [
-        "Developing end-to-end Machine Learning/Deep Learning project including Natural Language Processing, Discriminative and Predictive AI, Generative AI, fine-tuning Language Models, utilization of OpenCV, proficiency in Prompt Engineering and Tuning, Retrieval Augmentation Generation (RAG) Applications, Vector Databases, Conversational AI and Chatbots, State of the Art Transformers etc..",
-       
-      ],
-    },
-    {
-      title: "Freelancing",
-      company_name: "Fiverr – Remote/Direct Client",
-      date: "07/2020-Present",
-      points: [
-        "Developing end-to-end Machine Learning/Deep Learning project including Natural Language Processing, Discriminative and Predictive AI, Generative AI, fine-tuning Language Models, utilization of OpenCV, proficiency in Prompt Engineering and Tuning, Retrieval Augmentation Generation (RAG) Applications, Vector Databases, Conversational AI and Chatbots, State of the Art Transformers etc..",
-       
-      ],
-    },
+   
+      
     
 
   ];
 
-  const testimonials = [
-    {
-      testimonial:
-        "Recommended. He is one of the best workers here. Always good work",
-      name: "joseomar18",
-      designation: "Fiverr Client",
 
-      image: "https://randomuser.me/api/portraits/men/31.jpg",
-    },
-    {
-      testimonial:
-        "Very fast replier. Very trust worthy. Very talented. Very hard worker i am very happy with the work given!",
-      name: "ajaybains123",
-      designation: "Fiverr Client",
-      image: "https://randomuser.me/api/portraits/men/85.jpg",
-    },
-    {
-      testimonial:
-        "Perfect work, completed.",
-      name:"alikhreis466",
-      designation: "Fiverr Client",
-      image: "https://randomuser.me/api/portraits/men/35.jpg",
-    },
-
-
-    {
-      testimonial:
-        "It’s was in short notice and he got it done perfectly",
-      name: "zackry_",
-      designation: "Fiverr Client",
-
-      image: "https://randomuser.me/api/portraits/men/44.jpg",
-    },
-
-    {
-      testimonial:
-        "I would recommend Ali to everyone, very professional attitude, in time delivery, deep understanding of project.",
-      name: "elchin7765",
-      designation: "Fiverr Client",
-
-      image: "https://randomuser.me/api/portraits/men/88.jpg",
-    },
-
-
-    {
-      testimonial:
-        "Great job, work was delivered before the deadline and was higher than any expectations :).",
-      name: "donaldchan",
-      designation: "Fiverr Client",
-
-      image: "https://randomuser.me/api/portraits/men/14.jpg",
-    },
-
-
-    {
-      testimonial:
-        "Really great work! Excellent communication!.",
-      name: "brunoleal912",
-      designation: "Fiverr Client",
-
-      image: "https://randomuser.me/api/portraits/men/68.jpg",
-    },
-
-
-    {
-      testimonial:
-        "Really impressed with Ali skills and capacity of explaining all the concepts.",
-      name: "geraldosilva",
-      designation: "Fiverr Client",
-
-      image: "https://randomuser.me/api/portraits/men/18.jpg",
-    },
-
-
-
-    {
-      testimonial:
-        "Ali was a pleasure to work with. He delivered the code a full day ahead of schedule, giving me time to thoroughly test. His code was clean and provided as I requested. There was one minor revision and he took care of it within minutes. I highly recommend Ali for his skills and customer service!.",
-      name: "jwalton4th",
-      designation: "Fiverr Client",
-
-      image: "https://randomuser.me/api/portraits/men/24.jpg",
-    },
-
-    
-    {
-      testimonial:
-        "very professional and cooperative developer! Delivered the work within 12 hours.",
-      name: "user94991916",
-      designation: "Fiverr Client",
-
-      image: "https://randomuser.me/api/portraits/men/86.jpg",
-    },
-
-
-
-
-
-    
-
-    {
-      testimonial:
-        "Excelente servicio en general. gran atención y un muy buen desarrollo de su trabajo. si buscan a alguien realmente bueno, es aquí.",
-      name: "user86533464",
-      designation: "Fiverr Client",
-
-      image: "https://randomuser.me/api/portraits/men/9.jpg",
-    },
-
-
-
-    {
-      testimonial:
-        "i am not gonna recommend to come here do the assignment but guy is good You can try it",
-      name: "woody091",
-      designation: "Fiverr Client",
-
-      image: "https://randomuser.me/api/portraits/men/13.jpg",
-    },
-    
-  ];
   
   const projects = [
     {
@@ -1285,95 +1093,22 @@ source_code_link: "https://github.com/AliHaider0343/Diabetes-Predictive-Model",
       
   
 
-
-
-
-    
 ];
 
-const Publications =
-[
- {
-   title: "Automated Text Selection for Raw Data Annotation",
-   description: "Our research highlights the importance of training data quality in automated text processing. We propose innovative text selection techniques and cluster-based vectorized text pruning to address redundancy and enhance the efficiency of natural language analysis and machine learning applications.",
-   link: "https://ieeexplore.ieee.org/document/10410314",
- },
- {
-   title: "A Hybrid Approach for Food Name Recognition in Restaurant Reviews",
-   description: "Food Computing uses NLP to extract insights from text, focusing on Named Entity Recognition (NER) for identifying food names. We propose a neuro-heuristic approach with a template-based dataset preparation, achieving an F1 accuracy of 0.97.",
-   link: "https://ieeexplore.ieee.org/document/10323795",
- },
-
- {
-  title: "NLP-Assisted Configurable Text Annotation Tool",
-  description: "The paper introduces ConAno, a text annotation tool specifically designed for sentiment analysis and aspect-based sentiment analysis tasks. Here's a concise description that adheres to the safety guidelines:ConAno: Streamlining Sentiment Analysis with a Configurable Annotation ToolThis paper unveils ConAno, an innovative tool that simplifies the often-complex process of annotating text data for sentiment analysis. ConAno stands out with its:.",
-  link: "https://archive.org/details/cona-no-a-configurable-annotation-tool",
-},
-
-{
-  title: "NLP-Assisted Configurable Text Annotation Tool (Conference Paper)",
-  description: "20th International Conference on Frontiers of Information Technology (FIT 2023)(Under Review by FIT 2023 Evaluation Panel).",
-  link: "",
-},
-{
-  title: "ABSA Based Recommendation System",
-  description: "Journal paper awaiting submission for Journal commencement).",
-  link: "",
-},
-
-{
-  title: "Qualitative/Quantitative Data Enhancement and Balancing",
-  description: "(Conference paper awaiting submission for conference commencement).",
-  link: "",
-},
-
-
-{
-  title: "A Scoring Mechanism for Specialized Recommendation through Aspect-Based Sentiment Analysis",
-  description: "(Conference Paper under development).",
-  link: "",
-},
-
-
-];
-
-const achievement=[
-
-
-  {
-
-    title: "Institute Silver Medal",
-    image: silver,
-  },
-
-
-
-  {
-    title: "Campus Silver Medal",
-    image: compus,
-
-  },
-
-
-  {
-    title: "Top Machine Learning Voice",
-    image: top,
-  },
 
 
 
 
 
 
-];
 
 
 const certificates=[
 
   {
 
-    title: "Blockchain Security (Coursera)",
-    link: "https://www.coursera.org/account/accomplishments/specialization/WABCCFAD4ZPG",
+    title: "Generative AI with Large Language Models",
+    link: "https://www.coursera.org/account/accomplishments/verify/M7VBUNHFAH47",
   },
   {
 
@@ -1383,14 +1118,14 @@ const certificates=[
   
   {
 
-    title: "Data Science Foundations (Cradley)",
-    link: "https://www.credly.com/badges/74116b26-fb48-4a02-a46a-0d9c8508ce6b/public_url",
+    title: "Analytics with SQL and Python",
+    link: "https://olympus.mygreatlearning.com/courses/47925/certificate?pb_id=581",
   },
   
   {
 
-    title: "Python (Kaggle)",
-    link: "https://www.kaggle.com/learn/certification/ali1510/python",
+    title: "EDA with Python",
+    link: "https://olympus.mygreatlearning.com/courses/52825/certificate?pb_id=581",
   },
   
   {
@@ -1400,62 +1135,10 @@ const certificates=[
   },
 
 
+
+
+
  
-  {
-
-    title: "Intro to CHATGPT (Data camp)",
-    link: "https://www.datacamp.com/completed/statement-of-accomplishment/course/4a86612a704496612e7d5e6061018bde8a954dee",
-  },
-
-  {
-
-    title: "IBM Cognitive Class Certificate (IBM)",
-    link: "https://courses.cognitiveclass.ai/certificates/5234b5bcfaa74ad3a591743d1b51b16a",
-  },
-
-
-  {
-
-    title: "Transformer Models and BERT Model with Google Cloud (Udacity)",
-    link: "https://www.udacity.com/certificate/e/2f97db4e-7cb6-11ee-a301-a3f3b4438cbf",
-  },
-
-
-
-  {
-
-    title: "Problem Solving (Hacker Rank)",
-    link: "https://www.hackerrank.com/certificates/7e2180267771",
-  },
-
-
-  {
-
-    title: "Java Programming and OOP (Great Leanings)",
-    link: "https://verify.mygreatlearning.com/verify/YGKCSQIJ",
-  },
-
-  {
-
-    title: "React JS (Great Learnings)",
-    link: "https://olympus.mygreatlearning.com/courses/52045/certificate",
-  },
-
-  {
-
-    title: "WordPress (Digi Skills)",
-    link: "https://drive.google.com/file/d/1WNk9AO63K1eZCp1S5aiX2W_p_uoB7om_/view",
-  },
-
-
-  {
-
-    title: "Freelancing (Digi Skills)",
-    link: "https://drive.google.com/file/d/1-Xnx6v8mn4jxTkCQ5MEFKODfwocXGaDi/view",
-  },
-
-
-
 ];
 
 
@@ -1465,4 +1148,4 @@ const certificates=[
 
 
   
-  export { services, technologies, experiences, testimonials, projects,Publications, achievement,certificates};
+  export { services, technologies, experiences, projects,certificates};

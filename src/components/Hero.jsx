@@ -16,11 +16,12 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Ali Haider</span>
+            Hi, I'm <span className='text-[#915EFF]'>Muhammad Junaid</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           Get Your Conversational , Generative , Intelligent , AI and <br className='sm:block hidden' />
-          web applications
+          Machine Learning Systems
+        
           </p>
         </div>
       </div>
