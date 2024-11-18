@@ -34,9 +34,9 @@ import {
   import selenium from '../assets/tech/selenium.png';
   import BS from '../assets/tech/beautiful-soup.png';
   import GI from '../assets/tech/Generative_AI.png';
-  import project from "../assets/tech/project1.png";
+  import project from "../assets/tech/story.png";
   import java from "../assets/tech/java_based.png";
-  import chainlit from "../assets/tech/chainlit.png";
+  import chainlit from "../assets/tech/ask.png";
   import deeplearning from '../assets/tech/deep-learning.png';
   import maktek from '../assets/tech/maktek.jpg';
   import work from '../assets/tech/work.jpg';
@@ -55,13 +55,12 @@ import {
   import ChatBot from '../assets/tech/bot.png';
   import hypothesis from '../assets/tech/hypothesis.png';
   import neuraletwork from '../assets/tech/neural-network.png';
-  import charai from '../assets/tech/charai.jpg';
+ 
   import streamlit from '../assets/tech/streamlit.jpg';
   import saas from '../assets/tech/saas.jpg';
-  import silver from '../assets/silver.jpg';
-  import compus from '../assets/compus.png';
+
   import keras from '../assets/KERAS.png';
-  import top from '../assets/tech/top.jpg';
+  
   import report from '../assets/report.jpg';
   import chat from '../assets/tech/chat.jpg';
   import titanic from '../assets/tech/titanic.jpg';
@@ -299,48 +298,48 @@ import {
   
   const projects = [
     {
-        name: "TradingView Indicators Chatbot",
+        name: "Interactive Storyteller for Kids",
         description:
-            "This project focuses on developing a sophisticated chatbot capable of understanding user instructions to generate and write TradingView indicators. By leveraging retrieval-augmented generation (RAG) techniques, the chatbot can interact with users, providing insightful and accurate indicator scripts. The chatbot is trained on a comprehensive dataset of TradingView indicators, ensuring it is well-versed in various technical analysis tools and methods.",
+            "Interactive Storyteller for Kids! This engaging web app uses OpenAI's GPT-3.5-turbo to generate personalized stories for children. Simply enter details about the character, setting, and plot, and enjoy unique, creative stories that inspire imagination.",
         tags: [
             {
-                name: "RAG model ",
+                name: "OpenAI",
                 color: "blue-text-gradient",
             },
             {
-                name: "TradingView",
+                name: "Streamlit",
                 color: "green-text-gradient",
             },
             {
-                name: "chatchain",
+                name: "Attractive Interface",
                 color: "pink-text-gradient",
             },
         ],
 
         image: project,
-        source_code_link: "https://github.com/AliHaider0343/Pine-Script-Code-Generator-RAG-/tree/main?tab=readme-ov-file",
+        source_code_link: "https://github.com/Engr-Muhammad-Junaid/interactive-storyteller",
     },
     {
-        name: "Welcome to CarRental ChatBot!",
+        name: "Welcome to AskBizlytix",
         description:
-            "The CarRental ChatBot is a conversational AI solution designed to streamline and enhance the car rental experience. This chatbot leverages advanced language models and cutting-edge technologies to provide customers with a user-friendly interface for renting vehicles, getting information about available cars, and receiving support for their car rental needs.",
+            "AskBizlytix is a cutting-edge conversional AI tool designed to enhance data analytics for transactional data.",
         tags: [
             {
-                name: "Chainlit",
+                name: "PandasAI",
                 color: "blue-text-gradient",
             },
             {
-                name: "OpenAI",
+                name: "Chainlit",
                 color: "green-text-gradient",
             },
             {
-                name: "Langchain",
+                name: "Fastapi",
                 color: "pink-text-gradient",
             },
 
         ],
         image: chainlit,
-        source_code_link: "https://github.com/AliHaider0343/Pet-Toy-Recommendation-ChatBot/tree/main",
+        source_code_link: "https://github.com/Engr-Muhammad-Junaid/AskBizlytix/blob/main/README.md",
     },
     {
         name: "Configurable-Data-Annotation-Tool-",
